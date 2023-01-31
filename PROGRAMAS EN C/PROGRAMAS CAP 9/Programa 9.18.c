@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 /* Mezcla.
 El programa mezcla, respetando el orden, dos archivos que se encuentran
 ?ordenados en forma ascendente considerando la matrícula de los alumnos. */

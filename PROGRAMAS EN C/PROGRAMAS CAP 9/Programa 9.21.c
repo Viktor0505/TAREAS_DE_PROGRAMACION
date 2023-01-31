@@ -20,7 +20,7 @@ void main(void)
 {
 float pro;
 FILE *ap, *c1, *c2, *c3, *c4, *c5;
-ap = fopen(”alu1.dat”, ”r”);
+ap = fopen (”alu1.dat”, ”r”);
 /* Observa que los archivos car1.dat, car2.dat, car3.dat, car4.dat y car5.dat
 ?se abren en la modalidad para escribir y leer. */
 c1 = fopen(”car1.dat”, ”w+”);
@@ -45,7 +45,7 @@ fclose(c3);
 fclose(c4);
 fclose(c5);
 }
-float F1(FILE *ap)
+float F1(FILE *ap);
 /* Esta función obtiene el promedio del examen de admisión. */
 {
 alumno alu;
